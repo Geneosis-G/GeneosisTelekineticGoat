@@ -1,0 +1,36 @@
+Goats can also have super powers, and Magneto himself would be jealous of this one!
+
+[b]FERATURES[/b]
+- TELEKINETIC GOAT: You can move objects by the power of your mind.
+
+[b]COMMANDS[/b]
+- [b]No item + [Right Click]:[/b] Grab the first item in front of you.
+- [b]Item + [Left Click]:[/b] Throw the item in front of you.
+- [b]Item + [Right Click]:[/b] Throw the item at 45°.
+- [b]Item + [S] + [Left Click]:[/b] Throw the item vertically.
+- [b]Item + [Ragdoll key]:[/b] Drop the item in front of you.
+
+[b]CHARACTERISTICS[/b]
+- If you try to grab an item while licking an object, this object will be grabbed.
+- If you go ragdoll for any reason, you will drop the grabbed item.
+- Dead NPCs come back to life when you grab them.
+- Not compatible with resized goats bigger than the original.
+
+[b]EASTER EGGS[/b]
+- [spoiler]Telekinesis can't grab moving objects but it can make them inanimate.[/spoiler]
+- [spoiler]Ripped Goat can throw objects stronger.[/spoiler]
+
+[b]KNOWN BUGS[/b]
+- You can't grab ragdolls directly, you need to lick them first.
+
+[b]FAQ[/b]
+- How do I apply your mutators to my goat?
+[i]In the main menu of the game, select Custom Game, then you will see a list of all the mutators installed on your computer. Double click on the mutators you want in this list to add them to your goat.[/i]
+
+- My game is crashing at startup, what do I do?
+[i]Try to follow [url=http://steamcommunity.com/sharedfiles/filedetails/?id=247411111]this guide[/url] and see if it fixed your problem. If not, I don't think I can do anything more sorry.[/i]
+
+[b]DEV NOTES[/b]
+[quote=About this mod]I got the idea of this mod after reading the description of the [url=http://steamcommunity.com/sharedfiles/filedetails/?id=247267363]Goatbuild mod[/url]. When I was working on the APM, I discovered a really interesting function called SetBase() that attach an object to another object and I thought about a way to apply it to any object te be able to transport it.
+So here is the result, I used the position of the Demonic Goat force field to attach the objects to the goat and allow to move them where you want ^^ I found in the code of the [url=http://steamcommunity.com/sharedfiles/filedetails/?id=245365487]Baambs mod[/url] a nice way to throw items so I reused it for more fun.
+I had a few problems with NPCs because they just didn't want to be grabbed, so I used the Tick() event to relocate them constantly at the correct position. InterpActors (moving objects) are even worst because every time you try to move them, they just teleport back to their intended position >_< All I could do was to stop them and make them moveable as a simple crate.[/quote]
